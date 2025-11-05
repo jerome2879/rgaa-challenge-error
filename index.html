@@ -1,50 +1,71 @@
 <!doctype html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
     <title>RGAA Challenge</title>
     <style>
-      body { font-family: system-ui, sans-serif; line-height: 1.5; }
-      .muted { color: #9e9e9e; }
-      .cta { background:#0a66c2; color:white; padding:10px 14px; display:inline-block; cursor:pointer; }
-      nav a { margin-right: 12px; }
+        body {
+            font-family: system-ui, sans-serif;
+            line-height: 1.5;
+        }
+
+        .muted {
+            foreground color: #7a7979, background
+            color: #ffffff, font
+            size: 12.0pt (16px), font weight: normal)
+        }
+
+        .cta {
+            background: #0a66c2;
+            color: white;
+            padding: 10px 14px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        nav a {
+            margin-right: 12px;
+        }
     </style>
-  </head>
-  <body>
-    <header>
-      <h1>Mon super site</h1>
-      <h3>Bienvenue !</h3>
-      <nav>
+</head>
+<body>
+<header>
+    <h1>Mon super site</h1>
+    <h2>Bienvenue !</h2>
+    <nav>
         <a href="#contenu">Cliquez ici</a>
         <a href="#contact">Cliquez ici</a>
-      </nav>
-    </header>
+    </nav>
+</header>
 
-    <main id="contenu">
-      <img src="team.jpg" width="300" height="200">
+<main id="contenu">
+    <img src="ker%20saoul.jpg" alt="Yeah Baby" width="300" height="200">
 
-      <p class="muted">Ce texte gris clair manque de contraste pour certains utilisateurs.</p>
+    <p class="muted">Ce texte gris clair manque de contraste pour certains utilisateurs.</p>
 
-      <section>
+    <section>
         <h3>Inscription à la newsletter</h3>
         <form action="/subscribe" method="post">
-          <input type="text" name="email" placeholder="Votre email"><br><br>
-          <div class="cta" onclick="this.closest('form').submit()">S'abonner</div>
+            <input type="text" name="email" placeholder="Votre email"><br><br>
+            <div class="cta" onclick="this.closest('form').submit()">S'abonner</div>
         </form>
-      </section>
+    </section>
 
-      <section>
+    <section>
         <h3>Actions rapides</h3>
-        <button>
-          <svg width="18" height="18" aria-hidden="true" focusable="false">
-            <circle cx="9" cy="9" r="8" fill="currentColor"></circle>
-          </svg>
+        <button aria-label="Close">
+            <svg width="18" height="18" aria-hidden="true" focusable="false">
+                <circle cx="9" cy="9" r="8" fill="currentColor"></circle>
+            </svg>
         </button>
-      </section>
-    </main>
+    </section>
+</main>
 
-    <footer>
-      <a href="#haut" tabindex="10">Haut de page</a>
-    </footer>
-  </body>
+<footer>
+    <a href="#haut" tabindex=">0">Haut de page</a>
+</footer>
+</body>
 </html>
